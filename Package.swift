@@ -3,6 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "KDCircularProgress",
+    platforms: [
+    .iOS(.v9)
+  ],
     products: [
         .library(name: "KDCircularProgress", targets: ["KDCircularProgress"])
     ],
